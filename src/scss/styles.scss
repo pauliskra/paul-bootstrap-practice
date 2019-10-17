@@ -7,6 +7,10 @@
 // $font-family-sans-serif: "Helvetica Neue";
 
 // Import Bootstrap styles
+$primary-color: #ffff;
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import 'nav';
 
 // Import partials here
