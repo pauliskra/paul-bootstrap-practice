@@ -13,4 +13,17 @@ $primary-color: #ffff;
 
 @import 'nav';
 
-// Import partials here
+.jumbotron {
+    background-size: cover;
+    background-image: url("../img/pirate-ship.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: $primary-color;
+    text-align: center;
+  }
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
